@@ -9,7 +9,7 @@ Struktur: Memahami alur kerja direktori; memisahkan file publik (assets) di publ
 
 Server: Menggunakan Spark CLI untuk menjalankan server internal, yang mempercepat pengujian tanpa perlu konfigurasi web server (Apache/Nginx) yang kompleks di awal.
 
-Praktikum 4–5: Arsitektur MVC
+Praktikum 4: Arsitektur MVC
 Proses ini adalah implementasi alur logika sistem berbasis Model-View-Controller (MVC).
 
 Routing: Mendefinisikan endpoint URL pada Routes.php yang berfungsi sebagai pintu masuk (entry point) setiap permintaan pengguna.
