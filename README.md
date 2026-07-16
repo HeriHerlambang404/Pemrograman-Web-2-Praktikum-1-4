@@ -1,25 +1,19 @@
-Stack Teknologi
-Backend: PHP (CodeIgniter 4)
+Praktikum 1–3: Fondasi & Environment
+Proses ini difokuskan pada penyiapan ekosistem pengembangan agar aplikasi berjalan dengan standar CI4.
 
-Frontend: HTML, CSS, JS, Vue.js
+Instalasi: Menggunakan Composer sebagai dependency manager untuk mengunduh library inti CI4.
 
-Database: MySQL
+Konfigurasi: Melakukan environment mapping pada file .env untuk mengatur koneksi database dan mode debugging.
 
-Tools: Composer, Spark CLI
+Struktur: Memahami alur kerja direktori; memisahkan file publik (assets) di public/ dan logika inti aplikasi di app/ untuk menjaga keamanan sistem.
 
-Ringkasan Progres
-Praktikum 1–3: Setup & Inisialisasi
+Server: Menggunakan Spark CLI untuk menjalankan server internal, yang mempercepat pengujian tanpa perlu konfigurasi web server (Apache/Nginx) yang kompleks di awal.
 
-Instalasi CI4 via Composer dan konfigurasi lingkungan (.env, Paths.php).
+Praktikum 4–5: Arsitektur MVC
+Proses ini adalah implementasi alur logika sistem berbasis Model-View-Controller (MVC).
 
-Eksplorasi struktur direktori (app/, public/, writable/).
+Routing: Mendefinisikan endpoint URL pada Routes.php yang berfungsi sebagai pintu masuk (entry point) setiap permintaan pengguna.
 
-Deployment server lokal menggunakan php spark serve.
+Controller: Membangun controller untuk memproses logika bisnis; menerima data dari request dan memutuskan view mana yang harus dimuat.
 
-Praktikum 4–5: Implementasi MVC
-
-Konfigurasi Routing (Routes.php) untuk pemetaan URL.
-
-Pengembangan Controller (Home, Artikel) sebagai logika alur aplikasi.
-
-Pembangunan Views dan layout dasar untuk antarmuka pengguna.
+Views: Menyusun antarmuka menggunakan HTML/CSS dan Vue.js untuk memberikan pengalaman pengguna yang reaktif, dengan struktur layout yang modular agar mudah dikelola dan dikembangkan kembali.
